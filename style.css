@@ -120,7 +120,7 @@ body {
   place-items: center;
 }
 
-.social-h1 {
+.title {
   font-size: 2.8rem;
   text-align: center;
   font-weight: var(--regular);
@@ -143,4 +143,16 @@ body {
 .social-p {
   font-size: 1.2rem;
   margin: 0;
+}
+.accounts {
+  background-color: var(--yellow-100);
+  color: var(--black);
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin: 2rem 1rem;
+  display: grid;
+  place-items: center;
+
+  font-size: .9rem;
+  font-weight: var(--regular);
 }
